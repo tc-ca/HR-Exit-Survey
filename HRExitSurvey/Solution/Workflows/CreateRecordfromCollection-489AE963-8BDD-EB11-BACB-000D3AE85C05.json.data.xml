@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{489ae963-8bdd-eb11-bacb-000d3ae85c05}" Name="Create Record from Collection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Workflow WorkflowId="{489ae963-8bdd-eb11-bacb-000d3ae85c05}" Name="Create Record from Collection" Description="Adds a record to two SharePoint Lists and sets the 'Created By' and 'Modified By' fields in one List to blank." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <JsonFileName>/Workflows/CreateRecordfromCollection-489AE963-8BDD-EB11-BACB-000D3AE85C05.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
@@ -23,4 +23,7 @@
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Create Record from Collection" />
   </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Adds a record to two SharePoint Lists and sets the 'Created By' and 'Modified By' fields in one List to blank." />
+  </Descriptions>
 </Workflow>
