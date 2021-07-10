@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="hres_CreatedByGUID">
+  <defaultvalue>1df5e554-ec7e-46a6-901d-d85a3881cb18</defaultvalue>
+  <description default="This is the GUID for the 'Created By&quot; field. Get this from running the info flow.">
+    <label description="This is the GUID for the 'Created By&quot; field. Get this from running the info flow." languagecode="1033" />
+  </description>
+  <displayname default="CreatedByGUID">
+    <label description="CreatedByGUID" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.2.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

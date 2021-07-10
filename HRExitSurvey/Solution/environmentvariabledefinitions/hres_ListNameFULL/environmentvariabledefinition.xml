@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="hres_ListNameFULL">
+  <defaultvalue>HR_x0020_Exit_x0020_Survey_x0020_Responses</defaultvalue>
+  <description default="Full List Name">
+    <label description="Full List Name" languagecode="1033" />
+  </description>
+  <displayname default="List Name (FULL)">
+    <label description="List Name (FULL)" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.2.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

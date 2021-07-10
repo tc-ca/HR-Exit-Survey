@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="hres_ListNameURL">
+  <defaultvalue>HR%20Exit%20Survey%20Responses</defaultvalue>
+  <description default="List Name (eg: My%20Url)">
+    <label description="List Name (eg: My%20Url)" languagecode="1033" />
+  </description>
+  <displayname default="List Name (URL)">
+    <label description="List Name (URL)" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.2.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>
