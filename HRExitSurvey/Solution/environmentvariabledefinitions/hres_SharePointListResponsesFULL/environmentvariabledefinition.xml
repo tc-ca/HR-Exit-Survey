@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListResponsesFULL">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>bcb64c40-15d4-4b54-a349-ea636f1a4c97</defaultvalue>
+  <displayname default="SharePointListResponsesFULL">
+    <label description="SharePointListResponsesFULL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.6.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>
