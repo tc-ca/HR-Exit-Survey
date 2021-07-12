@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListFactors">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>9a69f056-5d82-429f-bb1a-fd4f055bbe2e</defaultvalue>
+  <displayname default="SharePointListFactors">
+    <label description="SharePointListFactors" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

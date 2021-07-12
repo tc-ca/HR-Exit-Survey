@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListReasonForLeaving">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>c1e84fe4-ecbd-4289-9f51-373b06da189d</defaultvalue>
+  <displayname default="SharePointListReasonForLeaving">
+    <label description="SharePointListReasonForLeaving" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

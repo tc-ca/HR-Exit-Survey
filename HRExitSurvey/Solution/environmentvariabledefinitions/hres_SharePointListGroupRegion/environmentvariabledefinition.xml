@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListGroupRegion">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>75e9c7bb-8c62-4a52-a79b-0142765d496c</defaultvalue>
+  <displayname default="SharePointListGroupRegion">
+    <label description="SharePointListGroupRegion" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

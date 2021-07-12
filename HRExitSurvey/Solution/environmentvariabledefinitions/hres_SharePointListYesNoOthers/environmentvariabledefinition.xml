@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListYesNoOthers">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>5f5b0488-17ac-46a0-af40-efff513f4033</defaultvalue>
+  <displayname default="SharePointListYesNoOthers">
+    <label description="SharePointListYesNoOthers" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

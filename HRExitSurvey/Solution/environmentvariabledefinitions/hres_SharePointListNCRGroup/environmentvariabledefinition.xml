@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListNCRGroup">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>a341f4a1-adbc-42d8-815b-782b6343cb7b</defaultvalue>
+  <displayname default="SharePointListNCRGroup">
+    <label description="SharePointListNCRGroup" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListLengthAtTC">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>8073ca64-721f-4e50-b7f1-f9505ecb1ae8</defaultvalue>
+  <displayname default="SharePointListLengthAtTC">
+    <label description="SharePointListLengthAtTC" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

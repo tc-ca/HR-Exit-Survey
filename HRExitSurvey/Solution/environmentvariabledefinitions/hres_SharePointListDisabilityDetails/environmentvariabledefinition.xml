@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListDisabilityDetails">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>c0f84ef5-a105-491a-be06-7edec5551b1b</defaultvalue>
+  <displayname default="SharePointListDisabilityDetails">
+    <label description="SharePointListDisabilityDetails" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

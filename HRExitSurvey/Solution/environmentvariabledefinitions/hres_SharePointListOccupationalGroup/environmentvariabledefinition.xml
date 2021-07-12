@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListOccupationalGroup">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>4b968c01-20c0-4472-b86f-f6421508e8b8</defaultvalue>
+  <displayname default="SharePointListOccupationalGroup">
+    <label description="SharePointListOccupationalGroup" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>

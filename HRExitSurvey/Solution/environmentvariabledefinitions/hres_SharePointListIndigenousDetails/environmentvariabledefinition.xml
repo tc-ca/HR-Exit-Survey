@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointListIndigenousDetails">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>c7983904-6323-4b4f-aa0c-dbe3b29a6980</defaultvalue>
+  <displayname default="SharePointListIndigenousDetails">
+    <label description="SharePointListIndigenousDetails" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.9.0.5</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>hres_SharePointSite</schemaname>
+  </parentdefinitionid>
+  <type>100000004</type>
+</environmentvariabledefinition>
