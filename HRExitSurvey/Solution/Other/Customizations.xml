@@ -13,6 +13,13 @@
   <EntityDataProviders />
   <CanvasApps />
   <connectionreferences>
+    <connectionreference connectionreferencelogicalname="hres_sharedsharepointonline_8db69">
+      <connectionreferencedisplayname>SharePoint</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
     <connectionreference connectionreferencelogicalname="hres_sharedsharepointonline_c36fa">
       <connectionreferencedisplayname>SharePoint</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>

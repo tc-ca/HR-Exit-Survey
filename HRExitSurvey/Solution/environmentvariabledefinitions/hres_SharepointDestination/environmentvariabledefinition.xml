@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="hres_SharepointDestination">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <description default="Address of destination sharepoint site">
+    <label description="Address of destination sharepoint site" languagecode="1033" />
+  </description>
+  <displayname default="Sharepoint Destination">
+    <label description="Sharepoint Destination" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.10.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>dataset</parameterkey>
+  <type>100000004</type>
+</environmentvariabledefinition>
