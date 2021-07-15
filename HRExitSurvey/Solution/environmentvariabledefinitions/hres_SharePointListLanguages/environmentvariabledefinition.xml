@@ -1,6 +1,6 @@
 <environmentvariabledefinition schemaname="hres_SharePointListLanguages">
   <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
-  <defaultvalue>0c199590-fa6d-44ba-861a-835e1110551a</defaultvalue>
+  <defaultvalue>de29ece3-af06-44da-b76f-0413fb6c7c51</defaultvalue>
   <displayname default="SharePointListLanguages">
     <label description="SharePointListLanguages" languagecode="1033" />
   </displayname>

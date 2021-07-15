@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{c8ed4032-12e3-eb11-bacb-000d3a84e292}" Name="Export Sharepoint Items" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/ExportSharepointItems-C8ED4032-12E3-EB11-BACB-000D3A84E292.json</JsonFileName>
+<Workflow WorkflowId="{c8ed4032-12e3-eb11-bacb-000d3a84e292}" Name="Import Sharepoint Items" Description="Pulls data from the Demo Sharepoint Lists and updates the current lists using env variables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/ImportSharepointItems-C8ED4032-12E3-EB11-BACB-000D3A84E292.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -21,6 +21,9 @@
   <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Export Sharepoint Items" />
+    <LocalizedName languagecode="1033" description="Import Sharepoint Items" />
   </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Pulls data from the Demo Sharepoint Lists and updates the current lists using env variables" />
+  </Descriptions>
 </Workflow>
