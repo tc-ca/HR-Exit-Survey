@@ -5,7 +5,7 @@
     <label description="SharePointSite" languagecode="1033" />
   </displayname>
   <introducedversion>1.2.0.0</introducedversion>
-  <iscustomizable>1</iscustomizable>
+  <iscustomizable>0</iscustomizable>
   <isrequired>0</isrequired>
   <parameterkey>dataset</parameterkey>
   <type>100000004</type>
