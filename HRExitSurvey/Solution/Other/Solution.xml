@@ -6,7 +6,7 @@
       <LocalizedName description="HR Exit Survey" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.21.0.0</Version>
+    <Version>1.22.0.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>HRExitSurveyPublisher</UniqueName>
@@ -81,6 +81,7 @@
       <RootComponent type="29" id="{0477b912-aedd-eb11-bacb-000d3ae8540b}" behavior="0" />
       <RootComponent type="29" id="{0ea23bb8-8ede-eb11-bacb-000d3ae85c05}" behavior="0" />
       <RootComponent type="29" id="{4b60e9ee-b9e5-eb11-bacb-000d3a84e292}" behavior="0" />
+      <RootComponent type="29" id="{5a88f5ad-52e9-eb11-bacb-0022483c428c}" behavior="0" />
       <RootComponent type="29" id="{a3c18593-3a87-eb11-a812-000d3ae8c9cb}" behavior="0" />
       <RootComponent type="29" id="{c8ed4032-12e3-eb11-bacb-000d3a84e292}" behavior="0" />
       <RootComponent type="29" id="{f7936679-dbe4-eb11-bacb-000d3a0c72db}" behavior="0" />
