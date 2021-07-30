@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21071.130" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21072.129" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>HRExitSurvey</UniqueName>
     <LocalizedNames>
       <LocalizedName description="HR Exit Survey" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.22.0.0</Version>
+    <Version>1.23.0.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>HRExitSurveyPublisher</UniqueName>
@@ -85,6 +85,7 @@
       <RootComponent type="29" id="{a3c18593-3a87-eb11-a812-000d3ae8c9cb}" behavior="0" />
       <RootComponent type="29" id="{c8ed4032-12e3-eb11-bacb-000d3a84e292}" behavior="0" />
       <RootComponent type="29" id="{f7936679-dbe4-eb11-bacb-000d3a0c72db}" behavior="0" />
+      <RootComponent type="60" id="{9fbd0396-5ff1-eb11-94ef-000d3ae87bc2}" behavior="0" />
       <RootComponent type="300" schemaName="hres_hrexitsurvey_e119e" behavior="0" />
     </RootComponents>
     <MissingDependencies />

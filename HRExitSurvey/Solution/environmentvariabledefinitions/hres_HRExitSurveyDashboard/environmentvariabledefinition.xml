@@ -1,0 +1,10 @@
+<environmentvariabledefinition schemaname="hres_HRExitSurveyDashboard">
+  <defaultvalue>{"group":{"id":"410a12e2-8457-4cd1-b982-40c330084f5c","name":"TC-PACE DEV"},"component":{"id":"a811cc6f-1801-431c-b429-b3bb2934743f","name":"HR Exit Survey Dashboard","type":"Report","embedUrl":"https://app.powerbi.com/reportEmbed"}}</defaultvalue>
+  <displayname default="HR Exit Survey Dashboard">
+    <label description="HR Exit Survey Dashboard" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.22.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000003</type>
+</environmentvariabledefinition>
