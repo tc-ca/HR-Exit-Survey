@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>hres_hrexitsurveydataverse_9df0f</Name>
+  <AppVersion>2021-09-15T14:05:31Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21091.30.0</CreatedByClientVersion>
+  <MinClientVersion>3.21091.30.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"158a2231-2c06-4c7c-a7e9-3440c3e7acb3","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21091.30","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>HR Exit Survey Dataverse</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"e0f413d9-385c-4782-8948-d66df3e228db":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1438/1.0.1438.2324/logicflows/icon.png","dataSources":["CreateRecordfromCollection"],"dependencies":["154a5e35-b43d-4a49-9be6-9279da713acd"],"dependents":[],"parameterHints":{"workflowName":{"value":"777052be-a125-4999-8dfd-16f0f5ddf859"},"workflowEntityId":{"value":"489ae963-8bdd-eb11-bacb-000d3ae85c05"},"154a5e35-b43d-4a49-9be6-9279da713acd":{"value":"shared_sharepointonline"}},"parameterHintsV2":{"shared_sharepointonline":{"value":"154a5e35-b43d-4a49-9be6-9279da713acd"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"154a5e35-b43d-4a49-9be6-9279da713acd":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1487/1.0.1487.2472/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["e0f413d9-385c-4782-8948-d66df3e228db"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"6c37d9b6-781e-410f-ae1e-3f6556d2721a":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1507/1.0.1507.2528/office365/icon.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"HR Exit Survey Choices":{"entitySetName":"hres_hrexitsurveychoiceses","logicalName":"hres_hrexitsurveychoices"},"HR Exit Survey Languages":{"entitySetName":"hres_hrexitsurveylanguageses","logicalName":"hres_hrexitsurveylanguages"},"HR Exit Responses FULLS":{"entitySetName":"hres_hrexitresponsesfulls","logicalName":"hres_hrexitresponsesfull"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"hres_hrexitsurveychoices","componenttype":1},{"logicalname":"hres_hrexitsurveylanguages","componenttype":1},{"logicalname":"hres_hrexitresponsesfull","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/hres_hrexitsurveydataverse_9df0f_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/hres_hrexitsurveydataverse_9df0f_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

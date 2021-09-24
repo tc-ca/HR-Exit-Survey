@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="hres_SharePointSource">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <defaultvalue>https://034gc.sharepoint.com/sites/Demo</defaultvalue>
+  <description default="Sharepoint Source for data import">
+    <label description="Sharepoint Source for data import" languagecode="1033" />
+  </description>
+  <displayname default="SharePoint Source">
+    <label description="SharePoint Source" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>dataset</parameterkey>
+  <type>100000004</type>
+</environmentvariabledefinition>
