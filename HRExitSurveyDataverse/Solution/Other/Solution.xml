@@ -6,7 +6,7 @@
       <LocalizedName description="HR Exit Survey Dataverse" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.0.0</Version>
+    <Version>1.2.0.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>HRExitSurveyPublisher</UniqueName>
@@ -115,10 +115,6 @@
       <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
         <Dependent type="80" schemaName="hres_ViewResponses" displayName="View Responses" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="connectionreference" displayName="hres_sharedoffice365_1e6b9" solution="Active" id.connectionreferencelogicalname="hres_sharedoffice365_1e6b9" />
-        <Dependent type="29" displayName="Run duplication flow" id="{442a6389-92ff-eb11-94f0-0022483c139a}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
