@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>hres_requestidentifyinginfo_a7e78</Name>
-  <AppVersion>2021-09-07T15:21:52Z</AppVersion>
+  <AppVersion>2021-09-29T14:06:37Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.21084.20.0</CreatedByClientVersion>
-  <MinClientVersion>3.21084.20.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"58d12ff8-a115-4dce-9bb2-f479d780f2d4","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21084.20","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.21093.33.0</CreatedByClientVersion>
+  <MinClientVersion>3.21093.33.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"5c31448d-72b4-4a65-950c-8c23f9006289","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21093.33","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{}</ConnectionReferences>
+  <ConnectionReferences>{"eb96fcd9-92e6-42a9-ae2b-8ccb25fc6d72":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1438/1.0.1438.2324/logicflows/icon.png","dataSources":["RunRequestInfoFlow"],"dependencies":[],"dependents":[],"parameterHints":{"workflowName":{"value":"94700b90-31a3-44a6-ba6c-9acbbf02fbc6"},"workflowEntityId":{"value":"be8ae98e-7420-ec11-b6e6-0022483c5a11"}},"parameterHintsV2":{"workflowName":{"value":"94700b90-31a3-44a6-ba6c-9acbbf02fbc6"},"workflowEntityId":{"value":"be8ae98e-7420-ec11-b6e6-0022483c5a11"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"HR Exit Survey Languages":{"entitySetName":"hres_hrexitsurveylanguageses","logicalName":"hres_hrexitsurveylanguages"},"HR Exit Responses FULLS":{"entitySetName":"hres_hrexitresponsesfulls","logicalName":"hres_hrexitresponsesfull"},"Identifying Information Access Logs":{"entitySetName":"hres_identifyinginformationaccesslogs","logicalName":"hres_identifyinginformationaccesslog"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"}}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>

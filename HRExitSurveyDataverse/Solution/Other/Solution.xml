@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21091.126" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21092.137" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>HRExitSurveyDataverse</UniqueName>
     <LocalizedNames>
@@ -92,6 +92,8 @@
       <RootComponent type="20" id="{9ec5b59f-7c06-ec11-b6e7-0022483cc3e2}" behavior="0" />
       <RootComponent type="29" id="{442a6389-92ff-eb11-94f0-0022483c139a}" behavior="0" />
       <RootComponent type="29" id="{7f1fb1e0-91ff-eb11-94f0-0022483c1602}" behavior="0" />
+      <RootComponent type="29" id="{b27d62c4-7320-ec11-b6e6-0022483c580f}" behavior="0" />
+      <RootComponent type="29" id="{be8ae98e-7420-ec11-b6e6-0022483c5a11}" behavior="0" />
       <RootComponent type="62" schemaName="hres_ViewResponses" behavior="0" />
       <RootComponent type="80" schemaName="hres_ViewResponses" behavior="0" />
       <RootComponent type="300" schemaName="hres_hrexitsurveydataverse_9df0f" behavior="0" />
@@ -103,7 +105,7 @@
         <Dependent type="1" schemaName="systemuser" displayName="User" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bot" displayName="Chatbot" solution="PowerVirtualAgents (2.0.0.2)">
+        <Required type="1" schemaName="bot" displayName="Chatbot" solution="PowerVirtualAgents (2.0.0.59)">
           <package>msdynce_CustomerCareIntelligenceBots_Anchor (1.1.2.322)</package>
         </Required>
         <Dependent type="1" schemaName="systemuser" displayName="User" />

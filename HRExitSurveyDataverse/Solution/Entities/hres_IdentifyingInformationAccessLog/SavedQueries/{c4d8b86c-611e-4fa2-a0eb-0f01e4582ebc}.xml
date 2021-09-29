@@ -14,7 +14,7 @@
           <cell name="createdon" width="125" />
           <cell name="createdby" width="100" />
           <cell name="hres_tcemail" width="100" />
-          <cell name="hres_reasonforrequest" width="174" />
+          <cell name="hres_reasonforrequest" width="300" />
           <cell name="hres_responseid" width="100" />
         </row>
       </grid>
@@ -26,7 +26,6 @@
           <attribute name="hres_identifyinginformationaccesslogid" />
           <attribute name="hres_name" />
           <attribute name="createdon" />
-          <order attribute="hres_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -34,6 +33,7 @@
           <attribute name="hres_reasonforrequest" />
           <attribute name="hres_tcemail" />
           <attribute name="hres_responseid" />
+          <order attribute="createdon" descending="true" />
         </entity>
       </fetch>
     </fetchxml>
