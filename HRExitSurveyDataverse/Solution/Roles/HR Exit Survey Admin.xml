@@ -28,6 +28,7 @@
     <RolePrivilege name="prvAppendMailbox" level="Basic" />
     <RolePrivilege name="prvAppendMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvAppendMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvAppendmsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvAppendNewProcess" level="Global" />
     <RolePrivilege name="prvAppendNote" level="Basic" />
     <RolePrivilege name="prvAppendPersonalDocumentTemplate" level="Basic" />
@@ -66,6 +67,7 @@
     <RolePrivilege name="prvAppendToKnowledgeBaseRecord" level="Global" />
     <RolePrivilege name="prvAppendToLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendToMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvAppendTomsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvAppendToNewProcess" level="Global" />
     <RolePrivilege name="prvAppendToNote" level="Basic" />
     <RolePrivilege name="prvAppendToPersonalDocumentTemplate" level="Basic" />
@@ -110,6 +112,7 @@
     <RolePrivilege name="prvAssignKnowledgeArticle" level="Global" />
     <RolePrivilege name="prvAssignKnowledgeArticleViews" level="Global" />
     <RolePrivilege name="prvAssignMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvAssignNote" level="Basic" />
     <RolePrivilege name="prvAssignPersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvAssignReport" level="Basic" />
@@ -282,6 +285,7 @@
     <RolePrivilege name="prvReadmsdyn_AIModel" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_AIOdLabel" level="Global" />
     <RolePrivilege name="prvReadmsdyn_AITemplate" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvReadNewProcess" level="Global" />
     <RolePrivilege name="prvReadNewsArticle" level="Global" />
     <RolePrivilege name="prvReadNote" level="Basic" />
@@ -356,6 +360,7 @@
     <RolePrivilege name="prvShareKnowledgeArticle" level="Global" />
     <RolePrivilege name="prvShareKnowledgeArticleViews" level="Global" />
     <RolePrivilege name="prvShareMailMergeTemplate" level="Global" />
+    <RolePrivilege name="prvSharemsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvShareNote" level="Global" />
     <RolePrivilege name="prvSharePersonalDocumentTemplate" level="Global" />
     <RolePrivilege name="prvShareReport" level="Global" />
@@ -401,6 +406,7 @@
     <RolePrivilege name="prvWriteMailbox" level="Basic" />
     <RolePrivilege name="prvWriteMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvWriteMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvWritemsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvWriteNewProcess" level="Global" />
     <RolePrivilege name="prvWriteNote" level="Basic" />
     <RolePrivilege name="prvWritePersonalDocumentTemplate" level="Basic" />
