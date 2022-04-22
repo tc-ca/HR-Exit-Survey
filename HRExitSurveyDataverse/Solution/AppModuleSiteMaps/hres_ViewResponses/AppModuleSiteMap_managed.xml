@@ -14,11 +14,39 @@
         <Titles>
           <Title LCID="1033" Title="Tables" />
         </Titles>
-        <SubArea Id="New_SubArea" IntroducedVersion="7.0.0.0" Entity="hres_hrexitresponseslite" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_4661ec7c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_hrexitresponses" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_35f01fee" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Admin" />
+        </Titles>
+        <SubArea Id="NewSubArea_25d485e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_hrexitsurveylanguages" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_9504716c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_agreementlevel" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_7422f164" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_departurereason" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_8ec02e59" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_directorate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_106fc405" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_disabilitydetail" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Type of Disability" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_e65045ec" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_employmentstatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_b8bce8a2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_experiencefactor" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_e5c92b93" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_group" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_6ce4373" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_hrexitsurveychoices" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Yes or No" />
+            <Title LCID="1036" Title="Oui ou non" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_9cf6c2ed" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_indigenousgroup" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_de46022a" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_minoritygroup" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_a6107cfb" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_occupationalgroup" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_6aec1e15" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_region" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_af69e643" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hres_yearsofexperience" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>
   <LocalizedNames>
-    <LocalizedName description="View Responses" languagecode="1033" />
+    <LocalizedName description="HR Exit Admin" languagecode="1033" />
   </LocalizedNames>
 </AppModuleSiteMap>

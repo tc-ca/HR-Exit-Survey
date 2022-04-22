@@ -10,6 +10,7 @@
         <tab verticallayout="true" id="{7be0a967-ba59-48a6-ab7e-b77dee89dc0f}" IsUserDefined="1">
           <labels>
             <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -17,12 +18,14 @@
                 <section showlabel="false" showbar="false" IsUserDefined="0" id="{f87bb66c-f371-4185-ac2a-d76efd9e53c3}">
                   <labels>
                     <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{a32ab89b-38c9-4e61-8bdc-9b347ca180d3}">
                         <labels>
                           <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="hres_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_name" />
                       </cell>
@@ -31,6 +34,7 @@
                       <cell id="{0df10003-ac35-4f25-a9a0-6a4c408b09c6}">
                         <labels>
                           <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
@@ -40,7 +44,7 @@
                         <labels>
                           <label description="en" languagecode="1033" />
                         </labels>
-                        <control id="hres_en" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_en" disabled="false" />
+                        <control id="hres_en" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="hres_en" disabled="false" uniqueid="{11517dd7-5c8b-45e7-ad3c-b875fc718538}" />
                       </cell>
                     </row>
                     <row>
@@ -48,7 +52,7 @@
                         <labels>
                           <label description="fr" languagecode="1033" />
                         </labels>
-                        <control id="hres_fr" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_fr" disabled="false" />
+                        <control id="hres_fr" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="hres_fr" disabled="false" uniqueid="{ad86d7f4-8848-40e3-a68f-69c38de99df3}" />
                       </cell>
                     </row>
                   </rows>
@@ -103,6 +107,52 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{11517dd7-5c8b-45e7-ad3c-b875fc718538}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>hres_en</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">hres_en</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">hres_en</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">hres_en</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ad86d7f4-8848-40e3-a68f-69c38de99df3}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>hres_fr</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">hres_fr</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">hres_fr</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">hres_fr</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

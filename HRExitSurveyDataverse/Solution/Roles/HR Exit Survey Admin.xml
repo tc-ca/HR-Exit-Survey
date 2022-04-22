@@ -18,6 +18,20 @@
     <RolePrivilege name="prvAppendEmailTemplate" level="Local" />
     <RolePrivilege name="prvAppendExpiredProcess" level="Global" />
     <RolePrivilege name="prvAppendFeedback" level="Basic" />
+    <RolePrivilege name="prvAppendhres_DepartureReason" level="Global" />
+    <RolePrivilege name="prvAppendhres_Directorate" level="Global" />
+    <RolePrivilege name="prvAppendhres_DisabilityDetail" level="Global" />
+    <RolePrivilege name="prvAppendhres_EmploymentStatus" level="Global" />
+    <RolePrivilege name="prvAppendhres_ExperienceFactor" level="Global" />
+    <RolePrivilege name="prvAppendhres_Group" level="Global" />
+    <RolePrivilege name="prvAppendhres_HRExitResponses" level="Global" />
+    <RolePrivilege name="prvAppendhres_HRExitSurveyChoices" level="Global" />
+    <RolePrivilege name="prvAppendhres_HRExitSurveyLanguages" level="Global" />
+    <RolePrivilege name="prvAppendhres_IndigenousGroup" level="Global" />
+    <RolePrivilege name="prvAppendhres_MinorityGroup" level="Global" />
+    <RolePrivilege name="prvAppendhres_OccupationalGroup" level="Global" />
+    <RolePrivilege name="prvAppendhres_Region" level="Global" />
+    <RolePrivilege name="prvAppendhres_YearsofExperience" level="Global" />
     <RolePrivilege name="prvAppendImport" level="Basic" />
     <RolePrivilege name="prvAppendImportFile" level="Basic" />
     <RolePrivilege name="prvAppendImportMap" level="Local" />
@@ -59,6 +73,21 @@
     <RolePrivilege name="prvAppendToExpanderEvent" level="Global" />
     <RolePrivilege name="prvAppendToExpiredProcess" level="Global" />
     <RolePrivilege name="prvAppendToFeedback" level="Basic" />
+    <RolePrivilege name="prvAppendTohres_AgreementLevel" level="Global" />
+    <RolePrivilege name="prvAppendTohres_DepartureReason" level="Global" />
+    <RolePrivilege name="prvAppendTohres_Directorate" level="Global" />
+    <RolePrivilege name="prvAppendTohres_DisabilityDetail" level="Global" />
+    <RolePrivilege name="prvAppendTohres_EmploymentStatus" level="Global" />
+    <RolePrivilege name="prvAppendTohres_ExperienceFactor" level="Global" />
+    <RolePrivilege name="prvAppendTohres_Group" level="Global" />
+    <RolePrivilege name="prvAppendTohres_HRExitResponses" level="Global" />
+    <RolePrivilege name="prvAppendTohres_HRExitSurveyChoices" level="Global" />
+    <RolePrivilege name="prvAppendTohres_HRExitSurveyLanguages" level="Global" />
+    <RolePrivilege name="prvAppendTohres_IndigenousGroup" level="Global" />
+    <RolePrivilege name="prvAppendTohres_MinorityGroup" level="Global" />
+    <RolePrivilege name="prvAppendTohres_OccupationalGroup" level="Global" />
+    <RolePrivilege name="prvAppendTohres_Region" level="Global" />
+    <RolePrivilege name="prvAppendTohres_YearsofExperience" level="Global" />
     <RolePrivilege name="prvAppendToImport" level="Basic" />
     <RolePrivilege name="prvAppendToImportFile" level="Basic" />
     <RolePrivilege name="prvAppendToImportMap" level="Local" />
@@ -143,8 +172,22 @@
     <RolePrivilege name="prvCreateEmailTemplate" level="Basic" />
     <RolePrivilege name="prvCreateExchangeSyncIdMapping" level="Basic" />
     <RolePrivilege name="prvCreateExpiredProcess" level="Global" />
-    <RolePrivilege name="prvCreatehres_HRExitResponsesFULL" level="Basic" />
+    <RolePrivilege name="prvCreatehres_AgreementLevel" level="Global" />
+    <RolePrivilege name="prvCreatehres_DepartureReason" level="Global" />
+    <RolePrivilege name="prvCreatehres_Directorate" level="Global" />
+    <RolePrivilege name="prvCreatehres_DisabilityDetail" level="Global" />
+    <RolePrivilege name="prvCreatehres_EmploymentStatus" level="Global" />
+    <RolePrivilege name="prvCreatehres_ExperienceFactor" level="Global" />
+    <RolePrivilege name="prvCreatehres_Group" level="Global" />
+    <RolePrivilege name="prvCreatehres_HRExitResponses" level="Global" />
+    <RolePrivilege name="prvCreatehres_HRExitSurveyChoices" level="Global" />
+    <RolePrivilege name="prvCreatehres_HRExitSurveyLanguages" level="Global" />
     <RolePrivilege name="prvCreatehres_IdentifyingInformationAccessLog" level="Basic" />
+    <RolePrivilege name="prvCreatehres_IndigenousGroup" level="Global" />
+    <RolePrivilege name="prvCreatehres_MinorityGroup" level="Global" />
+    <RolePrivilege name="prvCreatehres_OccupationalGroup" level="Global" />
+    <RolePrivilege name="prvCreatehres_Region" level="Global" />
+    <RolePrivilege name="prvCreatehres_YearsofExperience" level="Global" />
     <RolePrivilege name="prvCreateImport" level="Basic" />
     <RolePrivilege name="prvCreateImportFile" level="Basic" />
     <RolePrivilege name="prvCreateImportMap" level="Local" />
@@ -263,11 +306,22 @@
     <RolePrivilege name="prvReadGoal" level="Basic" />
     <RolePrivilege name="prvReadGoalRollupQuery" level="Basic" />
     <RolePrivilege name="prvReadHierarchyRule" level="Global" />
-    <RolePrivilege name="prvReadhres_HRExitResponsesFULL" level="Basic" />
-    <RolePrivilege name="prvReadhres_HRExitResponsesLite" level="Global" />
+    <RolePrivilege name="prvReadhres_AgreementLevel" level="Global" />
+    <RolePrivilege name="prvReadhres_DepartureReason" level="Global" />
+    <RolePrivilege name="prvReadhres_Directorate" level="Global" />
+    <RolePrivilege name="prvReadhres_DisabilityDetail" level="Global" />
+    <RolePrivilege name="prvReadhres_EmploymentStatus" level="Global" />
+    <RolePrivilege name="prvReadhres_ExperienceFactor" level="Global" />
+    <RolePrivilege name="prvReadhres_Group" level="Global" />
+    <RolePrivilege name="prvReadhres_HRExitResponses" level="Global" />
     <RolePrivilege name="prvReadhres_HRExitSurveyChoices" level="Global" />
     <RolePrivilege name="prvReadhres_HRExitSurveyLanguages" level="Global" />
     <RolePrivilege name="prvReadhres_IdentifyingInformationAccessLog" level="Global" />
+    <RolePrivilege name="prvReadhres_IndigenousGroup" level="Global" />
+    <RolePrivilege name="prvReadhres_MinorityGroup" level="Global" />
+    <RolePrivilege name="prvReadhres_OccupationalGroup" level="Global" />
+    <RolePrivilege name="prvReadhres_Region" level="Global" />
+    <RolePrivilege name="prvReadhres_YearsofExperience" level="Global" />
     <RolePrivilege name="prvReadImport" level="Basic" />
     <RolePrivilege name="prvReadImportFile" level="Basic" />
     <RolePrivilege name="prvReadImportMap" level="Global" />
@@ -329,7 +383,6 @@
     <RolePrivilege name="prvReadTraceLog" level="Global" />
     <RolePrivilege name="prvReadTransactionCurrency" level="Global" />
     <RolePrivilege name="prvReadTranslationProcess" level="Global" />
-    <RolePrivilege name="prvReadUser" level="Global" />
     <RolePrivilege name="prvReadUserApplicationMetadata" level="Basic" />
     <RolePrivilege name="prvReadUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvReadUserEntityUISettings" level="Basic" />
@@ -398,6 +451,20 @@
     <RolePrivilege name="prvWriteExchangeSyncIdMapping" level="Basic" />
     <RolePrivilege name="prvWriteExpanderEvent" level="Global" />
     <RolePrivilege name="prvWriteExpiredProcess" level="Global" />
+    <RolePrivilege name="prvWritehres_AgreementLevel" level="Global" />
+    <RolePrivilege name="prvWritehres_DepartureReason" level="Global" />
+    <RolePrivilege name="prvWritehres_Directorate" level="Global" />
+    <RolePrivilege name="prvWritehres_DisabilityDetail" level="Global" />
+    <RolePrivilege name="prvWritehres_EmploymentStatus" level="Global" />
+    <RolePrivilege name="prvWritehres_ExperienceFactor" level="Global" />
+    <RolePrivilege name="prvWritehres_Group" level="Global" />
+    <RolePrivilege name="prvWritehres_HRExitSurveyChoices" level="Global" />
+    <RolePrivilege name="prvWritehres_HRExitSurveyLanguages" level="Global" />
+    <RolePrivilege name="prvWritehres_IndigenousGroup" level="Global" />
+    <RolePrivilege name="prvWritehres_MinorityGroup" level="Global" />
+    <RolePrivilege name="prvWritehres_OccupationalGroup" level="Global" />
+    <RolePrivilege name="prvWritehres_Region" level="Global" />
+    <RolePrivilege name="prvWritehres_YearsofExperience" level="Global" />
     <RolePrivilege name="prvWriteImport" level="Basic" />
     <RolePrivilege name="prvWriteImportFile" level="Basic" />
     <RolePrivilege name="prvWriteImportMap" level="Local" />

@@ -28,6 +28,8 @@
           </filter>
           <filter type="or" isquickfindfields="1">
             <condition attribute="hres_name" operator="like" value="{0}" />
+            <condition attribute="hres_en" operator="like" value="{0}" />
+            <condition attribute="hres_fr" operator="like" value="{0}" />
           </filter>
         </entity>
       </fetch>

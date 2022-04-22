@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e1a9d661-dfd5-43b7-b26d-6c0e579cbbb7}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{59f3edad-ae52-49d8-885b-e00f5d4bd515}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e32a624e-6799-4da5-8484-d4a10a4f45d5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{922dbd21-8b0a-4225-b5cb-a1f7630da45d}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="hres_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c2229f8-ab13-4c2b-90b0-3d223e8536cc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="en" languagecode="1033" />
+                        </labels>
+                        <control id="hres_en" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_en" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{493ccde2-4ba8-495a-92f9-c03597b93212}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="fr" languagecode="1033" />
+                        </labels>
+                        <control id="hres_fr" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_fr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae74405a-d7ca-4292-b7d2-35451bbcde92}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Display Order" languagecode="1033" />
+                          <label description="Ordre d'affichage" languagecode="1036" />
+                        </labels>
+                        <control id="hres_displayorder" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hres_displayorder" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4c877f3f-fa5d-41e9-8f5c-32854b2d27cb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bbc62af3-1c35-41c6-8dbb-d4d7c6b6459a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{12ca05ed-07bc-4087-b3cc-1623c52eb6f8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cdac17e8-d90c-4298-97ba-3a44df8ba459}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{99c98b16-9bcf-43c1-bca3-b6fd3526e1ec}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{782b0988-9b5e-453a-9a97-4911d42eb4eb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a326896d-813d-475f-9db3-9811cfed996d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{761c560d-0802-4405-9414-2ba9189dde7b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{41d2ebbd-a72d-4ff6-b6bc-7c80cdb9066f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

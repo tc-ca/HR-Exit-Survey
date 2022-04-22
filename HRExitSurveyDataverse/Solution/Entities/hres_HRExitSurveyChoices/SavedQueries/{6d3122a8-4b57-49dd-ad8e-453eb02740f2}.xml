@@ -15,6 +15,7 @@
           <cell name="hres_en" width="100" />
           <cell name="hres_fr" width="100" />
           <cell name="hres_prefix" width="100" />
+          <cell name="hres_displayorder" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -32,6 +33,7 @@
           <attribute name="hres_fr" />
           <attribute name="hres_prefix" />
           <order attribute="hres_prefix" descending="false" />
+          <attribute name="hres_displayorder" />
         </entity>
       </fetch>
     </fetchxml>

@@ -17,12 +17,14 @@
                 <section showlabel="false" showbar="false" IsUserDefined="0" id="{dd2ca759-c4d9-47f5-8c98-f83a505bf22f}">
                   <labels>
                     <label description="GENERAL" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{b993ef22-e819-4dbf-9667-373b66f217b1}">
                         <labels>
                           <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="hres_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_name" />
                       </cell>
@@ -31,6 +33,7 @@
                       <cell id="{4da4b770-1a99-4e22-addd-5449d06c29ce}">
                         <labels>
                           <label description="Owner" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>

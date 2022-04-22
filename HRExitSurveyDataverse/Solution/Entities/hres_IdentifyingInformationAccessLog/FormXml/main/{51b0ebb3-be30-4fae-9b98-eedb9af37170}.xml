@@ -10,6 +10,7 @@
         <tab verticallayout="true" id="{a8683f69-bc03-40db-a4b1-694f54df282c}" IsUserDefined="1">
           <labels>
             <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -17,12 +18,14 @@
                 <section showlabel="false" showbar="false" IsUserDefined="0" id="{3ef92f90-1f68-4a54-8e54-8171115e3b9d}">
                   <labels>
                     <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{86273629-1c91-49e1-934f-1a02900f6204}">
                         <labels>
                           <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="hres_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_name" />
                       </cell>
@@ -31,6 +34,7 @@
                       <cell id="{e6530f63-a2a4-45ac-9870-effdfff084ac}">
                         <labels>
                           <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>

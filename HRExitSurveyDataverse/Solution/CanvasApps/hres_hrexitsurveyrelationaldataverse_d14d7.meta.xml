@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>hres_hrexitsurveyrelationaldataverse_d14d7</Name>
+  <AppVersion>2022-04-22T18:38:20Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22042.8.0</CreatedByClientVersion>
+  <MinClientVersion>3.22042.8.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"20220422T183820Z-3.22042.8.0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22042.8","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>HR Exit Survey</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"HR Exit Survey Choices":{"entitySetName":"hres_hrexitsurveychoiceses","logicalName":"hres_hrexitsurveychoices"},"HR Exit Survey Languages":{"entitySetName":"hres_hrexitsurveylanguageses","logicalName":"hres_hrexitsurveylanguages"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Experience Factors":{"entitySetName":"hres_experiencefactors","logicalName":"hres_experiencefactor"},"Groups":{"entitySetName":"hres_groups","logicalName":"hres_group"},"Regions":{"entitySetName":"hres_regions","logicalName":"hres_region"},"Directorates":{"entitySetName":"hres_directorates","logicalName":"hres_directorate"},"Occupational Groups":{"entitySetName":"hres_occupationalgroups","logicalName":"hres_occupationalgroup"},"Departure Reasons":{"entitySetName":"hres_departurereasons","logicalName":"hres_departurereason"},"Agreement Levels":{"entitySetName":"hres_agreementlevels","logicalName":"hres_agreementlevel"},"Years of Experiences":{"entitySetName":"hres_yearsofexperiences","logicalName":"hres_yearsofexperience"},"Employment Statuses":{"entitySetName":"hres_employmentstatuses","logicalName":"hres_employmentstatus"},"Minority Groups":{"entitySetName":"hres_minoritygroups","logicalName":"hres_minoritygroup"},"Disability Details":{"entitySetName":"hres_disabilitydetails","logicalName":"hres_disabilitydetail"},"Indigenous Groups":{"entitySetName":"hres_indigenousgroups","logicalName":"hres_indigenousgroup"},"Duplicate Records":{"entitySetName":"duplicaterecords","logicalName":"duplicaterecord"},"HR Exit Temp Responses":{"entitySetName":"hres_hrexittempresponses","logicalName":"hres_hrexittempresponse"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"hres_hrexitsurveychoices","componenttype":1},{"logicalname":"hres_hrexitsurveylanguages","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"hres_experiencefactor","componenttype":1},{"logicalname":"hres_group","componenttype":1},{"logicalname":"hres_region","componenttype":1},{"logicalname":"hres_directorate","componenttype":1},{"logicalname":"hres_occupationalgroup","componenttype":1},{"logicalname":"hres_departurereason","componenttype":1},{"logicalname":"hres_agreementlevel","componenttype":1},{"logicalname":"hres_yearsofexperience","componenttype":1},{"logicalname":"hres_employmentstatus","componenttype":1},{"logicalname":"hres_minoritygroup","componenttype":1},{"logicalname":"hres_disabilitydetail","componenttype":1},{"logicalname":"hres_indigenousgroup","componenttype":1},{"logicalname":"duplicaterecord","componenttype":1},{"logicalname":"hres_hrexittempresponse","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/hres_hrexitsurveyrelationaldataverse_d14d7_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/hres_hrexitsurveyrelationaldataverse_d14d7_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

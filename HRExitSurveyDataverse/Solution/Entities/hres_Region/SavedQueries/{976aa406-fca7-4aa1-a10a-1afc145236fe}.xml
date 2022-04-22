@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{976aa406-fca7-4aa1-a10a-1afc145236fe}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="hres_name" select="1" icon="1" preview="1">
+        <row name="result" id="hres_regionid">
+          <cell name="hres_name" width="300" />
+          <cell name="hres_en" width="100" />
+          <cell name="hres_fr" width="100" />
+          <cell name="hres_displayorder" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="hres_region">
+          <attribute name="hres_regionid" />
+          <attribute name="hres_name" />
+          <order attribute="hres_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="hres_en" />
+          <attribute name="hres_fr" />
+          <attribute name="hres_displayorder" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Regions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

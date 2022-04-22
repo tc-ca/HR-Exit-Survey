@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21101.126" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22041.142" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>HRExitSurveyDataverse</UniqueName>
     <LocalizedNames>
       <LocalizedName description="HR Exit Survey Dataverse" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.3.0.0</Version>
+    <Version>1.4.0.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>HRExitSurveyPublisher</UniqueName>
@@ -78,45 +78,46 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="hres_hrexitresponsesfull" behavior="0" />
-      <RootComponent type="1" schemaName="hres_hrexitresponseslite" behavior="0" />
+      <RootComponent type="1" schemaName="hres_agreementlevel" behavior="0" />
+      <RootComponent type="1" schemaName="hres_departurereason" behavior="0" />
+      <RootComponent type="1" schemaName="hres_directorate" behavior="0" />
+      <RootComponent type="1" schemaName="hres_disabilitydetail" behavior="0" />
+      <RootComponent type="1" schemaName="hres_employmentstatus" behavior="0" />
+      <RootComponent type="1" schemaName="hres_experiencefactor" behavior="0" />
+      <RootComponent type="1" schemaName="hres_group" behavior="0" />
+      <RootComponent type="1" schemaName="hres_hrexitresponses" behavior="0" />
       <RootComponent type="1" schemaName="hres_hrexitsurveychoices" behavior="0" />
       <RootComponent type="1" schemaName="hres_hrexitsurveylanguages" behavior="0" />
+      <RootComponent type="1" schemaName="hres_hrexittempresponse" behavior="0" />
       <RootComponent type="1" schemaName="hres_identifyinginformationaccesslog" behavior="0" />
-      <RootComponent type="1" schemaName="systemuser" behavior="0" />
-      <RootComponent type="9" schemaName="hres_departurereasonschoices" behavior="0" />
-      <RootComponent type="9" schemaName="hres_hasdisabilityfurtherdetails" behavior="0" />
-      <RootComponent type="9" schemaName="hres_isvisibleminorityfurtherdetails" behavior="0" />
+      <RootComponent type="1" schemaName="hres_indigenousgroup" behavior="0" />
+      <RootComponent type="1" schemaName="hres_minoritygroup" behavior="0" />
+      <RootComponent type="1" schemaName="hres_occupationalgroup" behavior="0" />
+      <RootComponent type="1" schemaName="hres_region" behavior="0" />
+      <RootComponent type="1" schemaName="hres_yearsofexperience" behavior="0" />
       <RootComponent type="20" id="{1220df0a-2f07-ec11-b6e7-0022483cc3e2}" behavior="0" />
-      <RootComponent type="20" id="{8bd2ca54-b201-ec11-94f0-0022483c139a}" behavior="0" />
-      <RootComponent type="20" id="{9ec5b59f-7c06-ec11-b6e7-0022483cc3e2}" behavior="0" />
-      <RootComponent type="29" id="{442a6389-92ff-eb11-94f0-0022483c139a}" behavior="0" />
-      <RootComponent type="29" id="{7f1fb1e0-91ff-eb11-94f0-0022483c1602}" behavior="0" />
-      <RootComponent type="29" id="{b27d62c4-7320-ec11-b6e6-0022483c580f}" behavior="0" />
-      <RootComponent type="29" id="{be8ae98e-7420-ec11-b6e6-0022483c5a11}" behavior="0" />
+      <RootComponent type="20" id="{d06d4863-4a93-ec11-b3fe-0022483e89af}" behavior="0" />
       <RootComponent type="62" schemaName="hres_ViewResponses" behavior="0" />
       <RootComponent type="80" schemaName="hres_ViewResponses" behavior="0" />
-      <RootComponent type="300" schemaName="hres_hrexitsurveydataverse_9df0f" behavior="0" />
-      <RootComponent type="300" schemaName="hres_requestidentifyinginfo_a7e78" behavior="0" />
+      <RootComponent type="91" id="{05ca4ded-ef5b-4e2d-b20c-5e817529fd36}" schemaName="Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" behavior="0" />
+      <RootComponent type="92" id="{3d52e079-4b9e-ec11-b3fe-002248ad893c}" behavior="0" />
+      <RootComponent type="92" id="{4505bd44-e69e-ec11-b3fe-002248ad8d36}" behavior="0" />
+      <RootComponent type="92" id="{7d037afd-bdaa-ec11-983e-0022483e6447}" behavior="0" />
+      <RootComponent type="92" id="{8d83eef0-bdaa-ec11-983e-0022483e6447}" behavior="0" />
+      <RootComponent type="300" schemaName="hres_hrexitsurveyrelationaldataverse_d14d7" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="appusersetting" displayName="Model-Driven App User Setting" solution="AppModule (9.1.21095.210928001)" />
-        <Dependent type="1" schemaName="systemuser" displayName="User" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="bot" displayName="Chatbot" solution="PowerVirtualAgents (2.0.0.87)">
-          <package>msdynce_CustomerCareIntelligenceBots_Anchor (2.0.0.87)</package>
-        </Required>
-        <Dependent type="1" schemaName="systemuser" displayName="User" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="usermobileofflineprofilemembership" displayName="UserMobileOfflineProfileMembership" solution="MobileOfflineMembership (1.0.0.2)" />
-        <Dependent type="1" schemaName="systemuser" displayName="User" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent type="80" schemaName="hres_ViewResponses" displayName="View Responses" />
+        <Dependent type="80" schemaName="hres_ViewResponses" displayName="HR Exit Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.ReadOnlyGrid" displayName="MscrmControls.Grid.ReadOnlyGrid" solution="BaseCustomControlsCore (9.0.2203.4013)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Exit Responses" id="{c278669d-b1dd-4747-85cd-285d5ab0b49b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RichTextEditor.RichTextEditorControl" displayName="MscrmControls.RichTextEditor.RichTextEditorControl" solution="msdyn_RichTextEditor (1.0.0.1603)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Exit Survey Languages" id="{e74f89cf-db79-4983-911e-16de014cc0ce}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

@@ -10,6 +10,7 @@
         <tab verticallayout="true" id="{0639c15c-8f7f-48a4-854f-ca7401f4bd57}" IsUserDefined="1">
           <labels>
             <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -17,22 +18,24 @@
                 <section showlabel="false" showbar="false" IsUserDefined="0" id="{34e556f3-1c16-42c2-9f52-99b838c4689a}">
                   <labels>
                     <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{5769dda3-af4e-400e-82c7-77e365cb9dd1}">
                         <labels>
                           <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="hres_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_name" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{28035a1d-6d05-4232-80e1-27009f5f91cf}">
+                      <cell id="{eb1c8eb2-d143-473e-b9c2-cfb067825fb3}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Owner" languagecode="1033" />
+                          <label description="Prefix" languagecode="1033" />
                         </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                        <control id="hres_prefix" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_prefix" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -52,11 +55,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{eb1c8eb2-d143-473e-b9c2-cfb067825fb3}" locklevel="0">
+                      <cell id="{85ff92cd-df91-4a29-83fd-e200181a78b5}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Prefix" languagecode="1033" />
+                          <label description="Display Order" languagecode="1033" />
+                          <label description="Ordre d'affichage" languagecode="1036" />
                         </labels>
-                        <control id="hres_prefix" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_prefix" disabled="false" />
+                        <control id="hres_displayorder" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hres_displayorder" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -83,6 +87,13 @@
               <labels>
                 <label description="" languagecode="1033" />
               </labels>
+            </cell>
+            <cell id="{28035a1d-6d05-4232-80e1-27009f5f91cf}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
             </cell>
           </row>
         </rows>

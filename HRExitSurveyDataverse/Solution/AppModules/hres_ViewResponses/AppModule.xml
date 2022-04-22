@@ -11,15 +11,28 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="hres_ViewResponses" />
-    <AppModuleComponent type="1" schemaName="hres_hrexitresponseslite" />
-    <AppModuleComponent type="26" id="{2bee5c9c-5622-4bd7-93ca-765091484812}" />
+    <AppModuleComponent type="1" schemaName="hres_agreementlevel" />
+    <AppModuleComponent type="1" schemaName="hres_departurereason" />
+    <AppModuleComponent type="1" schemaName="hres_directorate" />
+    <AppModuleComponent type="1" schemaName="hres_disabilitydetail" />
+    <AppModuleComponent type="1" schemaName="hres_employmentstatus" />
+    <AppModuleComponent type="1" schemaName="hres_experiencefactor" />
+    <AppModuleComponent type="1" schemaName="hres_group" />
+    <AppModuleComponent type="1" schemaName="hres_hrexitresponses" />
+    <AppModuleComponent type="1" schemaName="hres_hrexitsurveychoices" />
+    <AppModuleComponent type="1" schemaName="hres_hrexitsurveylanguages" />
+    <AppModuleComponent type="1" schemaName="hres_indigenousgroup" />
+    <AppModuleComponent type="1" schemaName="hres_minoritygroup" />
+    <AppModuleComponent type="1" schemaName="hres_occupationalgroup" />
+    <AppModuleComponent type="1" schemaName="hres_region" />
+    <AppModuleComponent type="1" schemaName="hres_yearsofexperience" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
-    <Role id="{9ec5b59f-7c06-ec11-b6e7-0022483cc3e2}" />
+    <Role id="{1220df0a-2f07-ec11-b6e7-0022483cc3e2}" />
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
     <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
   </AppModuleRoleMaps>
   <LocalizedNames>
-    <LocalizedName description="View Responses" languagecode="1033" />
+    <LocalizedName description="HR Exit Admin" languagecode="1033" />
   </LocalizedNames>
 </AppModule>

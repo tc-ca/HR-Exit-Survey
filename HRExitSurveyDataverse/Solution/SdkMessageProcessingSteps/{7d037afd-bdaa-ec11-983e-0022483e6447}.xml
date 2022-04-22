@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Core.Localization.RetrieveMultiple: RetrieveMultiple of hres_disabilitydetail" SdkMessageProcessingStepId="{7d037afd-bdaa-ec11-983e-0022483e6447}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>03bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>Core.Localization.RetrieveMultiple, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598</PluginTypeName>
+  <PluginTypeId>bc089d7a-4f87-441d-a062-4b88ddf49944</PluginTypeId>
+  <PrimaryEntity>hres_disabilitydetail</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;Settings&gt;
+    &lt;Items&gt;
+        &lt;Item&gt;
+            &lt;Field&gt;hres_name&lt;/Field&gt;
+        &lt;/Item&gt;
+    &lt;/Items&gt;
+&lt;/Settings&gt;</Configuration>
+  <Description>Core.Localization.RetrieveMultiple: RetrieveMultiple of hres_disabilitydetail</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

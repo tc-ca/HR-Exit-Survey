@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c278669d-b1dd-4747-85cd-285d5ab0b49b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{7e154dab-cf2e-44f4-886d-faa0f1e5c35a}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="null_section_5" id="168fdcd7-a678-41f3-ae12-15c653196e84" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Work related info" languagecode="1033" />
+                    <label description="Infos sur le travail" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{bca96614-6648-4cdb-9692-1db0c62f8cc6}" rowspan="7" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Departure Reasons" languagecode="1033" />
+                          <label description="Raisons du départ" languagecode="1036" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{522c8b1e-e722-ec57-5976-2b929a3c4a4b}">
+                          <parameters>
+                            <TargetEntityType>hres_departurereason</TargetEntityType>
+                            <RelationshipName>hres_HRExitResponses_hres_DepartureReason</RelationshipName>
+                            <ViewId>{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</ViewId>
+                            <ViewIds>{6D557EF8-D04B-45AE-83BB-B81B27565A8A},{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{01f12b48-937c-41d3-a74e-ae3d8165a13f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Departure Reason Other" languagecode="1033" />
+                          <label description="Raisons du départ Autres" languagecode="1036" />
+                        </labels>
+                        <control id="hres_departurereasonother" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hres_departurereasonother" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68bc1c66-6936-4c9e-8e04-a6a06d561ebe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Consider Returning" languagecode="1033" />
+                          <label description="Envisage de revenir" languagecode="1036" />
+                        </labels>
+                        <control id="hres_considerreturning" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_considerreturning" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73440951-f0d4-4a17-85f2-ed6f56ea3725}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Consider Returning Explanation" languagecode="1033" />
+                          <label description="Envisage de revenir Explications" languagecode="1036" />
+                        </labels>
+                        <control id="hres_considerreturningexplanation" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hres_considerreturningexplanation" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fec83ca4-cccd-4a76-afb8-166e20c8a99c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Consider Returning Other" languagecode="1033" />
+                          <label description="Envisage de revenir Autres" languagecode="1036" />
+                        </labels>
+                        <control id="hres_considerreturningother" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_considerreturningother" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38bffab0-be3f-4185-9782-d007b554bb81}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                          <label description="Région" languagecode="1036" />
+                        </labels>
+                        <control id="hres_region" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_region" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89f99dbb-932c-48e1-b5cb-17094533d67b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Group" languagecode="1033" />
+                          <label description="Groupe" languagecode="1036" />
+                        </labels>
+                        <control id="hres_group" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_group" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13e552be-515d-421a-ab7e-f1d10017d187}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Directorate" languagecode="1033" />
+                          <label description="Direction" languagecode="1036" />
+                        </labels>
+                        <control id="hres_directorate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_directorate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f10cdfdc-40a3-4286-a5a7-24f3e91893ac}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Length at TC" languagecode="1033" />
+                          <label description="Durée à TC" languagecode="1036" />
+                        </labels>
+                        <control id="hres_lengthattc" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_lengthattc" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ccc3c90-04de-415b-aa66-b7d30473f639}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Employment Status" languagecode="1033" />
+                          <label description="Statut d'emploi" languagecode="1036" />
+                        </labels>
+                        <control id="hres_employmentstatus" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_employmentstatus" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0342539-5d5f-4ed7-80e1-8db8358f2163}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Occupational Group" languagecode="1033" />
+                          <label description="Groupe occupationnel" languagecode="1036" />
+                        </labels>
+                        <control id="hres_occupationalgroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_occupationalgroup" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_478" id="0795f714-6c34-4032-8c34-f4f3554566fa" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Personal Info" languagecode="1033" />
+                    <label description="Infos personnelles" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb97ae78-4b72-4945-aa1e-e95a2d21808d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Are you a woman?" languagecode="1033" />
+                          <label description="Êtes-vous une femme?" languagecode="1036" />
+                        </labels>
+                        <control id="hres_iswoman" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_iswoman" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42e178e8-8dd4-4142-9689-8accd7e260c0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Are you an Indigenous person?" languagecode="1033" />
+                          <label description="Êtes-vous un(e) Autochtone?" languagecode="1036" />
+                        </labels>
+                        <control id="hres_isindigenous" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_isindigenous" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50d568c4-3c5f-4856-9df9-6b9c35edd766}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Indigenous Group" languagecode="1033" />
+                          <label description="Groupe Autochtone" languagecode="1036" />
+                        </labels>
+                        <control id="hres_indigenousgroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_indigenousgroup" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52e97cbf-ac7a-49ee-abfb-f79de6f3c21b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Are you a member of a visible minority group?" languagecode="1033" />
+                          <label description="Êtes-vous membre d'une minorité visible?" languagecode="1036" />
+                        </labels>
+                        <control id="hres_isvisibleminority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_isvisibleminority" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40fcd42c-aa60-4299-84bb-b65d67855bac}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Minority Group" languagecode="1033" />
+                          <label description="Groupe Minorité" languagecode="1036" />
+                        </labels>
+                        <control id="hres_minoritygroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_minoritygroup" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29a5a1d2-e289-42ee-a4c5-a07b036334b6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Visible Minority Other" languagecode="1033" />
+                          <label description="Minorité visible Autres" languagecode="1036" />
+                        </labels>
+                        <control id="hres_visibleminorityother" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_visibleminorityother" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40190343-b63c-4a55-90b9-9776db54855b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Are you a person with a disability?" languagecode="1033" />
+                          <label description="Êtes-vous une personne handicapée?" languagecode="1036" />
+                        </labels>
+                        <control id="hres_hasdisability" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_hasdisability" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{025909d6-a917-4b34-8536-d6f8b9df65aa}" rowspan="7" colspan="1" showlabel="true" auto="false">
+                        <labels>
+                          <label description="Disability Details" languagecode="1033" />
+                          <label description="Type de handicap" languagecode="1036" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{18b784b2-7526-8286-5c1d-de086dcc464d}">
+                          <parameters>
+                            <TargetEntityType>hres_disabilitydetail</TargetEntityType>
+                            <RelationshipName>hres_HRExitResponses_hres_DisabilityDetai</RelationshipName>
+                            <ViewId>{C523100C-BDAA-EC11-983E-0022483E6447}</ViewId>
+                            <ViewIds>{3742756D-6688-43F9-B167-F5BD17DB5FBA},{C523100C-BDAA-EC11-983E-0022483E6447}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{18e76b72-364c-44c1-a446-e3577acd81d6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Disability Details Other" languagecode="1033" />
+                          <label description="Type de handicap Autres" languagecode="1036" />
+                        </labels>
+                        <control id="hres_disabilitydetailsother" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_disabilitydetailsother" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="52d7a59e-281f-4491-9960-2253465244f7" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="My Work and Well Being" languagecode="1033" />
+            <label description="Mon travail et mon bien-être" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="null_section_3" id="7949bf61-d5ef-4803-83fd-83fecaeb375c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="My Work" languagecode="1033" />
+                    <label description="Mon travail" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{93f53701-94ea-48c0-9195-2a7d857144f6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I had the necessary tools and equipment to do my work." languagecode="1033" />
+                          <label description="J'avais les ressources nécessaires (ex. : outils et équipement) pour accomplir mon travail." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq1" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a39e21a0-7e90-48ed-8eb2-55718d5ee1a9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="My job was a good fit with my skills." languagecode="1033" />
+                          <label description="Mon travail correspondait bien à mes compétences." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq2" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{724b8e52-4a89-471d-b6ff-90f569ce85e1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I was given meaningful work." languagecode="1033" />
+                          <label description="On m'a confié du travail significatif." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq3" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{097cb518-5c87-47e7-9ca5-3e44ebf06e78}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I was generally able to complete my assigned workload during my regular work hours." languagecode="1033" />
+                          <label description="En général, j'ai pu accomplir la charge de travail qui m'a été assignée pendant mes heures normales de travail." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq4" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq4" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86e295d7-5376-47ce-b130-f901defa5917}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="The objectives and responsibilities of the job were well-defined and communicated to me." languagecode="1033" />
+                          <label description="Les objectifs et les responsabilités du poste étaient bien définis et communiqués." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq5" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq5" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aba39ea3-3464-4750-8f3e-b879615b2a4d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I had opportunities for skills development/new learning in my job." languagecode="1033" />
+                          <label description="J'ai eu des occasions de perfectionnement de compétences /nouveaux apprentissages dans mon travail." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq6" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq6" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c77f804e-db60-4781-8e4f-2e92be13e124}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I was encouraged to be innovative and to take initiative in my work." languagecode="1033" />
+                          <label description="J'ai été encouragé(e) à être innovateur(trice) et à prendre des initiatives dans mon travail." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq7" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq7" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39c6a10a-5f9e-4a6b-8087-121e11f73038}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="My manager/supervisor was available to meet if I needed guidance or direction in my work." languagecode="1033" />
+                          <label description="Mon (ma) gestionnnaire/superviseur(e) était disponible pour me rencontrer si j'avais besoin de conseils ou d'orientation dans mon travail." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq8" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq8" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0282241-de6b-4b5c-a835-3b3dbec51618}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Management kept me updated on organization changes and how it would impact my work." languagecode="1033" />
+                          <label description="La gestion m'a tenu au courant des changements organisationnels et de l'incidence qu'ils auraient sur mon travail." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkq9" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_myworkq9" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e539223d-dd2c-477b-a9db-9357ee8cd4e5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="If there is any other factor that affected your work, please specify it here." languagecode="1033" />
+                          <label description="S’il y a un autre facteur qui a affecté votre travail, veuillez le préciser ici." languagecode="1036" />
+                        </labels>
+                        <control id="hres_myworkother" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hres_myworkother" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_2" id="eef04cf3-b925-43c1-8dd2-a541502c4524" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Well Being" languagecode="1033" />
+                    <label description="Mon bien-être" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b674b2b2-fe53-42bc-9bd9-bbdcb0da361b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I had good work/life balance." languagecode="1033" />
+                          <label description="J'avais un bon équilibre entre le travail et la vie privée." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq1" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d9bf4d7-3dc9-4374-ad71-e15b8cc751fe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I received regular feedback and recognition." languagecode="1033" />
+                          <label description="J'ai reçu de la rétroaction et de la reconnaissance régulièrement." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq2" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c60938c-853e-477d-9d51-7eea4bfceecd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I had a good working relationship with my team." languagecode="1033" />
+                          <label description="J'ai eu une bonne relation de travail avec mes collègues." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq3" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1144d33c-7803-4b24-9f53-cd4d516aef5f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I felt included by my team (e.g., location of desk, team meetings and events)." languagecode="1033" />
+                          <label description="Je me suis senti(e) inclus(e) par mon équipe (p. ex., emplacement du bureau, réunions d'équipe et événements)." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq4" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq4" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f65a76f0-4732-419a-997f-2aa5a77b66e0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="When I communicated with my immediate supervisor, I felt free to bring up any issues I was facing." languagecode="1033" />
+                          <label description="Je me suis senti(e) libre d'évoquer tous les problèmes auxquels je faisais face lorsque je communiquais avec mon(ma) superviseur(e) immédiat(e)." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq5" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq5" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ca59e45-a3fc-4209-8d9c-bcb050973078}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="My work unit demonstrated respect for public service ethics and values." languagecode="1033" />
+                          <label description="Mon unité de travail a fait preuve de respect envers l'éthique et les valeurs de la fonction publique." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq6" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq6" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fcf41678-0957-4079-b7d6-702c7e001221}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="The Department promotes a positive mental health in the workplace." languagecode="1033" />
+                          <label description="Le ministère favorise un environnement de santé mentale positif." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq7" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq7" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35492d4b-320f-4209-b934-e68ebdeed24c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="I was aware of the tools and resources (e.g.: Employee Assistance Program) that TC offers to encourage positive mental health." languagecode="1033" />
+                          <label description="J’étais au courant des outils et des ressources (p. ex. : Programme d'aide aux employés) que TC offre pour encourager la santé mentale positive." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq8" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq8" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a22fe390-86ab-47a4-aa2d-8cbbc2d30187}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Overall, I had a positive work experience." languagecode="1033" />
+                          <label description="Dans l'ensemble, j'ai eu une expérience de travail positive." languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingq9" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_wellbeingq9" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34839968-306e-4798-b430-16af98afd67e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="If there is any other factor that affected your well-being, please specify it here:" languagecode="1033" />
+                          <label description="S'il y a un autre facteur qui a affecté votre bien-être, veuillez préciser :" languagecode="1036" />
+                        </labels>
+                        <control id="hres_wellbeingother" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hres_wellbeingother" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="6c168491-29c8-4d84-af71-a29d9e2b886f" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="My Experience" languagecode="1033" />
+            <label description="Mon expérience" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="null_section_4" id="190c3180-3f14-496f-8d29-6dbaa4dc9eab" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Positive Experience" languagecode="1033" />
+                    <label description="Expérience positive" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{57861b1d-523b-4f64-b60e-d83fa24a76d9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Positive Factor 1" languagecode="1033" />
+                          <label description="Facteur positif 1" languagecode="1036" />
+                        </labels>
+                        <control id="hres_positivefactor1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_positivefactor1" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d5c4d9a-da7e-4dcd-8660-a045978e90f7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Positive Factor 2" languagecode="1033" />
+                          <label description="Facteur positif 2" languagecode="1036" />
+                        </labels>
+                        <control id="hres_positivefactor2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_positivefactor2" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{706f9195-1c6a-45b8-b1e8-c98f1e3297e2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Positive Factor 3" languagecode="1033" />
+                          <label description="Facteur positif 3" languagecode="1036" />
+                        </labels>
+                        <control id="hres_positivefactor3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_positivefactor3" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec3e741e-ee0c-46b6-a529-ba7730166f20}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Positive Factor Other" languagecode="1033" />
+                          <label description="Facteur positif Autres" languagecode="1036" />
+                        </labels>
+                        <control id="hres_positivefactorother" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hres_positivefactorother" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_3_section_2" showlabel="true" showbar="false" locklevel="0" id="{2ed9dc2a-eb01-5385-bcae-882a71b835da}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Experience to be Improved" languagecode="1033" />
+                    <label description="Expérience à améliorer" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4c2ba8d7-28e8-1ea1-5537-8241a88c909a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="To be improved Factor 1" languagecode="1033" />
+                          <label description="Facteur à améliorer 1" languagecode="1036" />
+                        </labels>
+                        <control id="hres_tobeimprovedfactor1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_tobeimprovedfactor1" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0848cee3-4479-7c00-c040-00749a67a6d3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="To be improved Factor 2" languagecode="1033" />
+                          <label description="Facteur à améliorer 2" languagecode="1036" />
+                        </labels>
+                        <control id="hres_tobeimprovedfactor2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_tobeimprovedfactor2" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7058b96b-4ce8-e9b8-6579-cbcd1aec9708}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="To be improved Factor 3" languagecode="1033" />
+                          <label description="Facteur à améliorer 3" languagecode="1036" />
+                        </labels>
+                        <control id="hres_tobeimprovedfactor3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hres_tobeimprovedfactor3" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{343b1730-95dc-4ae1-d0a8-ad4dee126e98}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="To be improved Factor Other" languagecode="1033" />
+                          <label description="Facteur à améliorer Autres" languagecode="1036" />
+                        </labels>
+                        <control id="hres_tobeimprovedfactorother" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_tobeimprovedfactorother" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{1f70d602-97a0-42fa-b0ca-b03e003e0f55}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f91bdfc6-e2cf-4da7-92dc-d7ecbf23c31e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fbf64c25-5c1f-462b-907e-91b1136f7a1d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7278b995-db5b-444f-891f-b9233f76b1c6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9120060f-bd24-41d3-9236-6a96e606e5ce}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Name" languagecode="1033" />
+                <label description="Nom" languagecode="1036" />
+              </labels>
+              <control id="header_hres_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hres_name" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e5b9a7a5-a2cf-4eff-b9e9-367f0b007b1c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4ba9b6e7-0642-4174-b36f-df270259238f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{96ae8d0f-2aed-4b84-9f57-a0ff75cbdb24}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5d4e83f1-817e-48f9-bfdd-bfa4dcd575b8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{522c8b1e-e722-ec57-5976-2b929a3c4a4b}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters />
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>hres_HRExitResponses_hres_DepartureReason</RelationshipName>
+                <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                <TargetEntityType>hres_departurereason</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{6D557EF8-D04B-45AE-83BB-B81B27565A8A},{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>hres_HRExitResponses_hres_DepartureReason</RelationshipName>
+                <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                <TargetEntityType>hres_departurereason</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{6D557EF8-D04B-45AE-83BB-B81B27565A8A},{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>hres_HRExitResponses_hres_DepartureReason</RelationshipName>
+                <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                <TargetEntityType>hres_departurereason</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{6D557EF8-D04B-45AE-83BB-B81B27565A8A},{AFC634F0-BCAA-EC11-983E-0022483BA4A3}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{18b784b2-7526-8286-5c1d-de086dcc464d}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters />
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{C523100C-BDAA-EC11-983E-0022483E6447}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>hres_HRExitResponses_hres_DisabilityDetai</RelationshipName>
+                <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                <TargetEntityType>hres_disabilitydetail</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{3742756D-6688-43F9-B167-F5BD17DB5FBA},{C523100C-BDAA-EC11-983E-0022483E6447}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{C523100C-BDAA-EC11-983E-0022483E6447}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>hres_HRExitResponses_hres_DisabilityDetai</RelationshipName>
+                <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                <TargetEntityType>hres_disabilitydetail</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{3742756D-6688-43F9-B167-F5BD17DB5FBA},{C523100C-BDAA-EC11-983E-0022483E6447}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{C523100C-BDAA-EC11-983E-0022483E6447}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>hres_HRExitResponses_hres_DisabilityDetai</RelationshipName>
+                <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                <TargetEntityType>hres_disabilitydetail</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{3742756D-6688-43F9-B167-F5BD17DB5FBA},{C523100C-BDAA-EC11-983E-0022483E6447}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
